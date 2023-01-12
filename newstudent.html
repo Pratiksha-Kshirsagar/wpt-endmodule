@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="/newstudent" method="post">
+    <div class="bold"> <fieldset style="border: 5px solid black; width: 500px; height: 500px;">
+        <table >
+           
+            <tr><td><br></td></tr>
+            <tr>
+                <td>
+                    New Student<br><br><br>
+                </td>
+            </tr>
+         <tr>
+            <td >Roll No:
+                <label for="prn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+             <input type="text" id="prn_id" name="roll" ><br><br>
+            </td>
+         </tr>
+         <tr>
+            <td>Name:
+                <label for="pw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="pass_id" name="name"><br><br>
+            </td>
+         </tr>
+         <tr>
+            <td>Course:
+                <label for="cpw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="con_id" name="course"><br><br>
+            </td>
+         </tr>
+         <tr>
+            <td>DOA:
+                <label for="cpw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="con_id" name="doa"><br><br>
+            </td>
+         </tr>
+         <tr>
+            <td>Marks:
+                <label for="cpw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="con_id" name="marks"><br><br>
+            </td>
+         </tr>
+         <tr>
+            <td>Phone No:
+                <label for="cpw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="con_id" name="phno"><br><br>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <button type="submit" onclick="submit()" style="font-weight: bold;"> submit</button>
+                <button type="button" onclick="remove()" style="font-weight: bold;"> cancel</button>
+            </td>
+         </tr>
+        </fieldset>
+        </table>
+    </div>
+</form>
+</body>
+</html>
